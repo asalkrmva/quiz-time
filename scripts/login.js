@@ -24,3 +24,5 @@ UI.loginBtn?.addEventListener("click", () => {
     UI.password.value = "";
   }
 });
+
+console.log("hello")
