@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    transition: 0.3s;
+}
+
+body.dark {
+    background-color: #222;
+    color: white;
+}
+
+.div1-nav {
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #e5e7eb;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body.dark .navbar {
+    background-color: #3e3f41;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo0 {
+    width: 45px;
+    height: 45px;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo-txt {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar-btn {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.darkmode-moon {
+    border: none;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.profile-btn {
+    background-color: transparent;
+    color: #3b82f6;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.login-btn {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 14px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.login-btn:hover {
+    background-color: #3d7be0;
+}
+
+.btn-login:hover {
+    background-color: #3d7be0;
+}
+
+.div2-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+}
+
+.txt-info {
+    text-align: center;
+}
+
+.main-title {
+    font-size: 64px;
+    margin-bottom: 15px;
+}
+
+.info1 {
+    color: gray;
+    font-size: 20px;
+}
+
+.sorovnoma-img {
+    width: 250px;
+}
+
+.kubok-img {
+    margin-top: 10px;
+    width: 250px;
+}
+
+.div3-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.choose {
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.category-choose {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.card1 {
+    background-color: white;
+    width: 260px;
+    height: 170px;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+body.dark .card1 {
+    background-color: #3e3f41;
+    box-shadow: 0 0 15px #1e1e1fa9;
+}
+
+.card1:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.stats {
+    color: gray;
+    font-size: 16px;
+}
+
+a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+body.dark a {
+    color: white;
+}

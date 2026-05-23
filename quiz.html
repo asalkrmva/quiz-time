@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body style="user-select: none;">
+    <div class="question-container" id="questionContainer">
+        <div class="question" id="question"></div>
+        <div class="options" id="options"></div>
+    </div>
+
+    <div class="modal-back" id="gameOverContainer" hidden>
+        <div class="modal">
+            <h1 class="title" id="gameOverTitle">GAME OVER</h1>
+            <div class="final-score">
+                <p>Correct: <span id="correctNumber"></span></p>
+                <p>Incorrect: <span id="incorrectNumber"></span></p>
+            </div>
+            <button id="tryAgainBtn" class="tryAgainBtn">Try again</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@hiseb/confetti@2.1.0/dist/confetti.min.js"></script>
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/storage-keys.js"></script>
+    <script src="scripts/quizzes.data.js"></script>
+    <script src="scripts/quiz.js"></script>
+</body>
+</html>
