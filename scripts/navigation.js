@@ -1,6 +1,6 @@
 const PAGES = {
     login: "login.html",
-    home: "home.html",
+    home: "index.html",
     quiz: "quiz.html"
 };
 
